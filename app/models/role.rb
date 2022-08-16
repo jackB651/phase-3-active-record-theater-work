@@ -1,3 +1,5 @@
 class Role < ActiveRecord::Base
-    belongs_to :audition
+    has_many :auditions
+
+    
 end
